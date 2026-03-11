@@ -1,6 +1,4 @@
 # aws-reStart-Journey
-Showcasing the experience gathered in the aws reStart journey.
-
 <h1>Hi, I'm Tania Davila</h1>
 
 <p>
