@@ -85,10 +85,19 @@ My goal is to combine my <strong>business analysis experience</strong> with
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="3b04792d-04e1-428b-9a5c-e1a41fc1f128" data-share-badge-host="https://www.credly.com"></div>
 
 <p>
-<a href="https://www.credly.com/badges/YOUR-ID/public_url">
+  
+<a href="https://www.credly.com/badges/3b04792d-04e1-428b-9a5c-e1a41fc1f128/public_url">
 <img src="Certifications & Badges/aws-cloud-quest-badge.png" width="180">
 </a>
 </p>
+</p>
+
+<p>
+  <a href="https://www.salesforce.com/trailblazer/taniavirtel">
+<img width="125" height="123" alt="image" src="https://github.com/user-attachments/assets/2f0fdb47-b90e-48fc-99f0-e938e23cc3ae" />  
+  </a>
+<a href="https://www.salesforce.com/trailblazer/taniavirtel">Salesforce Certified Platform Administrator</a>
+
 </p>
 
 <p>This GitHub documents my learning journey in cloud computing and technology.</p>
