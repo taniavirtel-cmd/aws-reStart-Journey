@@ -80,9 +80,10 @@ My goal is to combine my <strong>business analysis experience</strong> with
 <h2>🏅 Certifications</h2>
 
 <p>
-<a href="https://www.credly.com/badges/3b04792d-04e1-428b-9a5c-e1a41fc1f128/public_url">
-#<img src="https://images.credly.com/images/YOUR-BADGE-ID.png" width="180">
-</a>
+<a href="https://www.credly.com/badges/3b04792d-04e1-428b-9a5c-e1a41fc1f128/public_url">Cloud practitioner</a>
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="3b04792d-04e1-428b-9a5c-e1a41fc1f128" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+
 </p>
 
 <p>This GitHub documents my learning journey in cloud computing and technology.</p>
