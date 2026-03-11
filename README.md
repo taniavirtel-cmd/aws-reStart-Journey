@@ -77,14 +77,12 @@ My goal is to combine my <strong>business analysis experience</strong> with
 <li>GitHub: You're already here!</li>
 </ul>
 
+<hr>
 <h2>🏅 Certifications</h2>
 
 <p>
 <a href="https://www.credly.com/badges/3b04792d-04e1-428b-9a5c-e1a41fc1f128/public_url">Cloud practitioner</a>
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="3b04792d-04e1-428b-9a5c-e1a41fc1f128" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-
-
-
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="3b04792d-04e1-428b-9a5c-e1a41fc1f128" data-share-badge-host="https://www.credly.com"></div>
 
 <p>
 <a href="https://www.credly.com/badges/YOUR-ID/public_url">
