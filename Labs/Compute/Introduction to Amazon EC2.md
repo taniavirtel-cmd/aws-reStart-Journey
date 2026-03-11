@@ -17,3 +17,10 @@ Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides resizab
 
 <img width="622" height="199" alt="image" src="https://github.com/user-attachments/assets/35537e02-502f-4537-82b5-ac9835135f70" />
 
+<img width="1105" height="260" alt="image" src="https://github.com/user-attachments/assets/80228e3b-458c-4fb9-95ad-df08da65f08a" />
+
+<img width="960" height="447" alt="image" src="https://github.com/user-attachments/assets/50af4496-e788-43dd-9860-2f9b32a3445c" />
+
+<img width="798" height="430" alt="image" src="https://github.com/user-attachments/assets/b9236537-6faf-4db9-a02a-ec9432eb9ffa" />
+
+<img width="992" height="260" alt="image" src="https://github.com/user-attachments/assets/98abc727-7cd1-408f-a0ef-b792cbf57a4b" />
