@@ -78,7 +78,7 @@ My goal is to combine my <strong>business analysis experience</strong> with
 </ul>
 
 <hr>
-<h2>🏅 Certifications</h2>
+<h2>Certifications</h2>
 
 <p>
 <a href="https://www.credly.com/badges/3b04792d-04e1-428b-9a5c-e1a41fc1f128/public_url">Cloud practitioner</a>
