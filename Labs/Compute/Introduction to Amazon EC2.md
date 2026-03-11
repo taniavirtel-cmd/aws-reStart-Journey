@@ -4,7 +4,9 @@ Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides resizab
 
 <img width="446" height="362" alt="image" src="https://github.com/user-attachments/assets/f2101d49-bac9-4eb2-a7cf-efc017562bf9" />
 
-<ul><b>Goals</b>
+During this lab, I had the opportunity to test some tasks related to EC2. The main goal was to launch an appache web server. 
+
+<ul><b>Tasks</b>
 <li>Launched a Web server with termination protection enabled</li>
 <li>Monitored EC2 instances</li>
 <li>Modified the security groups to allow HTTP access</li>
@@ -24,3 +26,7 @@ Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides resizab
 <img width="798" height="430" alt="image" src="https://github.com/user-attachments/assets/b9236537-6faf-4db9-a02a-ec9432eb9ffa" />
 
 <img width="992" height="260" alt="image" src="https://github.com/user-attachments/assets/98abc727-7cd1-408f-a0ef-b792cbf57a4b" />
+
+<img width="815" height="444" alt="image" src="https://github.com/user-attachments/assets/5c778a56-1c70-4ab3-8f63-4954d58c7ce4" />
+
+<img width="970" height="65" alt="image" src="https://github.com/user-attachments/assets/fb1bb7fa-5786-42d7-921f-11a85da1192e" />
