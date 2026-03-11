@@ -93,11 +93,18 @@ My goal is to combine my <strong>business analysis experience</strong> with
 </p>
 
 <p>
+<div data-iframe-width="150" data-iframe-height="270" > <a href="https://www.salesforce.com/trailblazer/taniavirtel">Salesforce Certified Platform Administrator</a></div>
+</br> 
   <a href="https://www.salesforce.com/trailblazer/taniavirtel">
 <img width="125" height="123" alt="image" src="https://github.com/user-attachments/assets/2f0fdb47-b90e-48fc-99f0-e938e23cc3ae" />  
   </a>
-<a href="https://www.salesforce.com/trailblazer/taniavirtel">Salesforce Certified Platform Administrator</a>
-
 </p>
 
+<p>
+<div data-iframe-width="150" data-iframe-height="270" > <a href="https://www.credly.com/badges/a307d18b-f3b7-4966-a3a0-4eea96a48c66/public_url">Workday Basics Series</a></div>
+</br>
+<img width="129" height="129" alt="workday-basics-series" src="https://github.com/user-attachments/assets/996dfb1c-7d1e-436b-a45e-b614a88390e2" />
+</p>
+</br>
+</br>
 <p>This GitHub documents my learning journey in cloud computing and technology.</p>
