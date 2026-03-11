@@ -77,4 +77,12 @@ My goal is to combine my <strong>business analysis experience</strong> with
 <li>GitHub: You're already here!</li>
 </ul>
 
+<h2>🏅 Certifications</h2>
+
+<p>
+<a href="https://www.credly.com/badges/3b04792d-04e1-428b-9a5c-e1a41fc1f128/public_url">
+#<img src="https://images.credly.com/images/YOUR-BADGE-ID.png" width="180">
+</a>
+</p>
+
 <p>This GitHub documents my learning journey in cloud computing and technology.</p>
