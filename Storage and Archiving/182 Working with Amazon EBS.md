@@ -150,7 +150,7 @@ This project demonstrates the ability to:
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 - Automate workflows using AWS Lambda  
 - Add monitoring with CloudWatch  
 - Implement lifecycle policies for S3 storage classes  
