@@ -35,5 +35,6 @@ Images are very important, we worked hard on the look of our website
 <img width="1075" height="473" alt="Screenshot 2026-03-19 at 13 58 02" src="https://github.com/user-attachments/assets/9f1832a7-ab7d-424f-8eaa-9a4ef62ec840" />
 
 Once everything was uploaded, the Quiet Kettle was finally live
-<img width="1075" height="473" alt="Screenshot 2026-03-19 at 13 58 02" src="https://github.com/user-attachments/assets/9f1832a7-ab7d-424f-8eaa-9a4ef62ec840" />
+<img width="2712" height="1446" alt="image" src="https://github.com/user-attachments/assets/b0e56d35-22fb-4650-9c2b-e5eb367d682b" />
+
 
