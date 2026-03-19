@@ -1,11 +1,21 @@
-<b>Configuring a static website on Amazon S3</b>
+# Static Website Hosting on Amazon S3
 
 Amazon S3 is an excellent choice for hosting static websites because it provides a highly scalable, durable, and cost-effective storage solution with minimal configuration.
 
+## Project Summary
+This project demonstrates how to configure and deploy a static website using Amazon S3. It highlights key cloud concepts such as storage configuration, access control, and web hosting without server management.
+
+## Tools & Technologies
+- Amazon S3  
+- HTML / CSS  
+- AWS Management Console  
+
+## Implementation Steps
 The website was created in a sandbox environment. </br>
 <img width="452" height="151" alt="image" src="https://github.com/user-attachments/assets/f9843622-6df6-47bf-9f98-f7e4a7442f74" />
 
-First step was to create a bucket.
+### 1. Create an S3 Bucket
+- Created a new S3 bucket to store website files.
 <img width="786" height="392" alt="image" src="https://github.com/user-attachments/assets/a1e28211-de0e-4cb5-8513-dd64ab17432a" />
 
 Then edit some important parameters such as:
@@ -37,4 +47,11 @@ Images are very important, we worked hard on the look of our website
 Once everything was uploaded, the Quiet Kettle was finally live
 <img width="2712" height="1446" alt="image" src="https://github.com/user-attachments/assets/b0e56d35-22fb-4650-9c2b-e5eb367d682b" />
 
+<img width="2712" height="1446" alt="image" src="https://github.com/user-attachments/assets/96821ac3-8e21-4895-b89e-ed3b2bc6c10b" />
+
+<img width="2712" height="1446" alt="image" src="https://github.com/user-attachments/assets/7b5ce91c-77be-4e00-bee8-5c27781d5267" />
+
+<img width="2712" height="1446" alt="image" src="https://github.com/user-attachments/assets/ca8e6f64-187b-4373-84d8-8b776a3c270a" />
+
+<img width="2712" height="1514" alt="image" src="https://github.com/user-attachments/assets/2ce48955-ea53-4362-b093-5217e2677a12" />
 
