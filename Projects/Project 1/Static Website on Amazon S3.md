@@ -31,3 +31,9 @@ A bucket policy is also needed (a set of rules that controls who can access your
 Now we upload the files that make our website (HTML + images)
 <img width="2144" height="696" alt="image" src="https://github.com/user-attachments/assets/fe07748c-7263-4bf9-9735-1215bf10bfbd" />
 
+Images are very important, we worked hard on the look of our website
+<img width="1075" height="473" alt="Screenshot 2026-03-19 at 13 58 02" src="https://github.com/user-attachments/assets/9f1832a7-ab7d-424f-8eaa-9a4ef62ec840" />
+
+Once everything was uploaded, the Quiet Kettle was finally live
+<img width="1075" height="473" alt="Screenshot 2026-03-19 at 13 58 02" src="https://github.com/user-attachments/assets/9f1832a7-ab7d-424f-8eaa-9a4ef62ec840" />
+
