@@ -18,16 +18,17 @@ The website was created in a sandbox environment. </br>
 - Created a new S3 bucket to store website files.
 <img width="786" height="392" alt="image" src="https://github.com/user-attachments/assets/a1e28211-de0e-4cb5-8513-dd64ab17432a" />
 
-Then edit some important parameters such as:
-Enable static web hosting
-Define the index page (main page of the website)
-Define the error page
+### 2. Enable Static Website Hosting
+- Enabled static website hosting
+- Defined index and error documents
 <img width="2116" height="836" alt="image" src="https://github.com/user-attachments/assets/8bb3f7ff-af22-4413-911a-070f163495fe" />
 
-Very quickly we had the website endpoint
+### 3. Retrieve Website Endpoint
+- Generated the S3 website endpoint
+- Initial access returned an error due to permissions
 <img width="2116" height="484" alt="image" src="https://github.com/user-attachments/assets/68dd2b11-ccca-4ba3-90f5-bfbf5a0f1e33" />
 
-but if we try to access it, there's an error. There's still work to do!
+The error
 <img width="2116" height="484" alt="image" src="https://github.com/user-attachments/assets/943440d1-e2f3-4edf-b4dc-65cb9d75fe3c" />
 
 There was a block on public access.This setting needs to be changed
