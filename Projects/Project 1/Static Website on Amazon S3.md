@@ -31,21 +31,27 @@ The website was created in a sandbox environment. </br>
 The error
 <img width="2116" height="484" alt="image" src="https://github.com/user-attachments/assets/943440d1-e2f3-4edf-b4dc-65cb9d75fe3c" />
 
-There was a block on public access.This setting needs to be changed
+### 4. Configure Public Access
+- Disabled "Block Public Access"
+- Allowed public access to bucket content
 <img width="2116" height="328" alt="image" src="https://github.com/user-attachments/assets/9205f257-edb2-4978-b24c-161b5590585c" />
 
 <img width="2116" height="638" alt="image" src="https://github.com/user-attachments/assets/ee036590-a343-4a65-9d83-0bbf978b9062" />
 
-A bucket policy is also needed (a set of rules that controls who can access your data in an Amazon S3 bucket and what actions they’re allowed to perform)
+### 5. Apply Bucket Policy
+- Added a bucket policy to allow public read access
+- Ensured secure and controlled exposure of files
 <img width="1478" height="970" alt="image" src="https://github.com/user-attachments/assets/13f847c7-3545-4bb3-a474-880d093fadb6" />
 
-Now we upload the files that make our website (HTML + images)
+### 6. Upload Website Files
+- Uploaded HTML and image assets
 <img width="2144" height="696" alt="image" src="https://github.com/user-attachments/assets/fe07748c-7263-4bf9-9735-1215bf10bfbd" />
 
 Images are very important, we worked hard on the look of our website
 <img width="1075" height="473" alt="Screenshot 2026-03-19 at 13 58 02" src="https://github.com/user-attachments/assets/9f1832a7-ab7d-424f-8eaa-9a4ef62ec840" />
 
-Once everything was uploaded, the Quiet Kettle was finally live
+## Final Output
+The website “Quiet Kettle” was successfully deployed and accessible via the S3 endpoint.
 <img width="2712" height="1446" alt="image" src="https://github.com/user-attachments/assets/b0e56d35-22fb-4650-9c2b-e5eb367d682b" />
 
 <img width="2712" height="1446" alt="image" src="https://github.com/user-attachments/assets/96821ac3-8e21-4895-b89e-ed3b2bc6c10b" />
@@ -56,3 +62,23 @@ Once everything was uploaded, the Quiet Kettle was finally live
 
 <img width="2712" height="1514" alt="image" src="https://github.com/user-attachments/assets/2ce48955-ea53-4362-b093-5217e2677a12" />
 
+## Key Skills Demonstrated
+- Cloud storage configuration (AWS S3)
+- Access control and security (bucket policies, public access settings)
+- Static website deployment
+- Troubleshooting access and permission issues
+
+---
+
+## Business Value
+This project demonstrates the ability to:
+- Deliver cost-efficient web hosting solutions
+- Configure secure and scalable cloud infrastructure
+- Translate technical setup into practical business applications
+
+---
+
+## Next Improvements
+- Integrate Amazon CloudFront for CDN performance
+- Add custom domain with Route 53
+- Implement HTTPS using SSL certificates
