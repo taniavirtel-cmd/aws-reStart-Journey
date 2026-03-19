@@ -53,13 +53,13 @@ Images are very important, we worked hard on the look of our website
 ## Final Output
 The website “Quiet Kettle” was successfully deployed and accessible via the S3 endpoint.
 <img width="2712" height="1446" alt="image" src="https://github.com/user-attachments/assets/b0e56d35-22fb-4650-9c2b-e5eb367d682b" />
-
+<br><br>
 <img width="2712" height="1446" alt="image" src="https://github.com/user-attachments/assets/96821ac3-8e21-4895-b89e-ed3b2bc6c10b" />
-
+<br><br>
 <img width="2712" height="1446" alt="image" src="https://github.com/user-attachments/assets/7b5ce91c-77be-4e00-bee8-5c27781d5267" />
-
+<br><br>
 <img width="2712" height="1446" alt="image" src="https://github.com/user-attachments/assets/ca8e6f64-187b-4373-84d8-8b776a3c270a" />
-
+<br><br>
 <img width="2712" height="1514" alt="image" src="https://github.com/user-attachments/assets/2ce48955-ea53-4362-b093-5217e2677a12" />
 
 ## Key Skills Demonstrated
@@ -68,15 +68,11 @@ The website “Quiet Kettle” was successfully deployed and accessible via the 
 - Static website deployment
 - Troubleshooting access and permission issues
 
----
-
 ## Business Value
 This project demonstrates the ability to:
 - Deliver cost-efficient web hosting solutions
 - Configure secure and scalable cloud infrastructure
 - Translate technical setup into practical business applications
-
----
 
 ## Next Improvements
 - Integrate Amazon CloudFront for CDN performance
