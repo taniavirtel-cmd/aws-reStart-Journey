@@ -24,7 +24,7 @@ Results are returned to the main function.
 The report is formatted and sent to an SNS topic.
 <br>
 SNS delivers the report via email.
-<br><br>
+<br>
 ### AWS Services Used
 <br>
 AWS Lambda – Serverless compute for report generation
@@ -41,22 +41,45 @@ IAM – Roles and permissions management
 <br>
 CloudWatch Logs – Monitoring and debugging
 <br>
-### Key Features
+
+### Key Features 
 ✅ Fully serverless reporting workflow <br>
 ✅ Secure database credential management via Parameter Store<br>
 ✅ Automated daily execution using cron scheduling<br>
 ✅ Decoupled architecture using multiple Lambda functionsv
 ✅ Email notifications via SNS<br>
 ✅ Dependency management using Lambda Layers<br>
-Implementation Highlights
-🔐 IAM & Security
+
+### Implementation Highlights
+IAM & Security
 Configured IAM roles with least-privilege access
-Resolved permission issues (e.g., ssm:GetParameter, kms:Decrypt)
+<img width="452" height="211" alt="image" src="https://github.com/user-attachments/assets/cfc3b7ec-2672-4c2a-98ca-ef97d45ffb6c" />
+<br>
+Resolved permission issues<br>
+<img width="452" height="206" alt="image" src="https://github.com/user-attachments/assets/8e0ad8ed-bf94-4805-962e-bd7de8ff1fc4" />
+<br>
 Managed secure access to database credentials
-📦 Lambda Layers
+<br>
+2.Lambda Layers
+<br>
 Created a Lambda Layer for external dependency:
-pymysql (for MySQL connectivity)
-🗄️ Database Connectivity
+<br>
+<img width="452" height="139" alt="image" src="https://github.com/user-attachments/assets/620fe810-ed0e-45f7-af2f-5058e8f65d34" />
+<br>
+Created a data extractor Lambda function
+<br>
+<img width="452" height="223" alt="image" src="https://github.com/user-attachments/assets/d74a9e1a-8cda-42ef-b106-76bd49882ee7" />
+<br>
+Added the lambda layer to the function
+<br>
+<img width="452" height="284" alt="image" src="https://github.com/user-attachments/assets/c94d5fbc-d630-4c4e-a75c-936dc3f9c598" />
+<br>
+Imported the code for the data extractor Lambda function
+<img width="452" height="284" alt="image" src="https://github.com/user-attachments/assets/80e8cafc-572b-4bfa-b0fe-247e196151a8" />
+<br>
+<img width="452" height="213" alt="image" src="https://github.com/user-attachments/assets/26a7f517-c1d6-446d-a038-33792a036f8c" />
+
+### Connectivity
 Connected Lambda to MySQL database running on EC2
 Fixed networking issue by opening port 3306 in the security group
 📧 Notifications
