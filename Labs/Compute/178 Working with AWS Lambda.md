@@ -95,39 +95,47 @@ Fixed networking issue by opening port 3306 in the security group.<br>
 <img width="452" height="234" alt="image" src="https://github.com/user-attachments/assets/c3f5539a-f76f-407c-b0f5-70a1440fb3aa" /><br>
 <img width="452" height="121" alt="image" src="https://github.com/user-attachments/assets/947c7e88-7005-44ad-8756-b8faec12c9f7" /><br>
 after the changes in the security group, the error is now gone<br>
-<img width="452" height="82" alt="image" src="https://github.com/user-attachments/assets/962f1c62-79a1-4c01-8227-378176abd818" />
+<img width="452" height="82" alt="image" src="https://github.com/user-attachments/assets/962f1c62-79a1-4c01-8227-378176abd818" /><br>
+### Placing an order and testing again
+<img width="452" height="191" alt="image" src="https://github.com/user-attachments/assets/168f89ef-026b-4827-8a29-80e0d86621ba" /><br>
+<img width="452" height="191" alt="image" src="https://github.com/user-attachments/assets/fd5d07a1-8d35-4774-854a-b98880785887" /><br>
 
-📧 Notifications
-Created SNS topic:
-salesAnalysisReportTopic
-Subscribed email endpoint for report delivery
-⏱️ Scheduling
-Configured cron trigger using EventBridge:
-cron(0 20 ? * MON-SAT *)
+### Notifications
+Created SNS topic<br>
+<img width="452" height="171" alt="image" src="https://github.com/user-attachments/assets/d5bf3705-bf45-4e92-b928-6ddd0aeffa35" /><br>
+Subscribed email endpoint for report delivery<br>
+<img width="452" height="149" alt="image" src="https://github.com/user-attachments/assets/6f9b07db-a862-4851-b52c-12b70d769d9a" /><br>
+<img width="452" height="221" alt="image" src="https://github.com/user-attachments/assets/9f5dccf7-f99b-4d9e-871a-5f2d6107b02a" /><br>
+
+### Sales Analysis Report
+Connecting to the CLI host instance<br>
+<img width="452" height="136" alt="image" src="https://github.com/user-attachments/assets/7cea2032-dad3-4724-ade0-135b8bf66d49" /><br>
+Configuring AWS CLI
+<img width="452" height="148" alt="image" src="https://github.com/user-attachments/assets/f71f1572-439e-456d-b9c2-3631136aca9c" /><br>
+Creating the SalesAnalysisReport Lambda function<br>
+<img width="452" height="163" alt="image" src="https://github.com/user-attachments/assets/cabcfb6b-ba95-4f2c-9082-908aa8540588" /><br>
+<img width="452" height="163" alt="image" src="https://github.com/user-attachments/assets/e54bd0d2-61a8-457e-9830-c468936b8985" /><br>
+function was working<br>
+<img width="452" height="163" alt="image" src="https://github.com/user-attachments/assets/bc84effc-c71e-47d6-8fd7-a4fdabf99782" /><br>
+received the email notification<br>
+<img width="452" height="422" alt="image" src="https://github.com/user-attachments/assets/db3654e2-ef44-42bf-acbb-a7b5ce155aba" />
+
+### Scheduling
+Configured cron trigger using EventBridge:<br>
+cron(0 20 ? * MON-SAT *)<br>
+<img width="452" height="203" alt="image" src="https://github.com/user-attachments/assets/0481d91a-4e6e-4ee3-a6e9-7d3537f5a511" /><br>
+
 
 ⚠️ Note: AWS uses UTC time, which must be considered when scheduling jobs.
 
-🧪 Troubleshooting & Debugging
-Used CloudWatch Logs to diagnose:
-IAM permission errors
-Lambda timeout issues (resolved by increasing timeout)
-Network connectivity problems
-📸 Sample Output
-📩 Automated email with daily sales report
-📊 Data pulled dynamically from the database after new orders
-📚 What I Learned
-Designing event-driven serverless architectures
-Managing IAM roles and permissions in real scenarios
-Debugging distributed systems using CloudWatch
-Handling secure configuration with Parameter Store
-Working with Lambda layers and dependencies
-Integrating multiple AWS services into a cohesive solution
-💡 Future Improvements
-Add CI/CD pipeline (e.g., GitHub Actions)
-Replace EC2 database with Amazon RDS
-Add error alerting (CloudWatch Alarms)
-Store reports in S3 for historical tracking
-Implement infrastructure as code (Terraform / CloudFormation)
-🧠 Key Takeaway
+### What I Learned
+Designing event-driven serverless architectures<br>
+Managing IAM roles and permissions in real scenarios<br>
+Debugging distributed systems using CloudWatch<br>
+Handling secure configuration with Parameter Store<br>
+Working with Lambda layers and dependencies<br>
+Integrating multiple AWS services into a cohesive solution<br>
+
+### Key Takeaway
 
 This project demonstrates how to build a production-style automated reporting system using AWS serverless services, focusing on automation, security, and scalability.
