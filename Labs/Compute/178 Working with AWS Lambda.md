@@ -46,12 +46,12 @@ CloudWatch Logs – Monitoring and debugging
 ✅ Fully serverless reporting workflow <br>
 ✅ Secure database credential management via Parameter Store<br>
 ✅ Automated daily execution using cron scheduling<br>
-✅ Decoupled architecture using multiple Lambda functionsv
+✅ Decoupled architecture using multiple Lambda functions<br>
 ✅ Email notifications via SNS<br>
 ✅ Dependency management using Lambda Layers<br>
 
 ### Implementation Highlights
-IAM & Security
+### IAM & Security
 Configured IAM roles with least-privilege access
 <img width="452" height="211" alt="image" src="https://github.com/user-attachments/assets/cfc3b7ec-2672-4c2a-98ca-ef97d45ffb6c" />
 <br>
@@ -60,7 +60,7 @@ Resolved permission issues<br>
 <br>
 Managed secure access to database credentials
 <br>
-2.Lambda Layers
+### Lambda Layers
 <br>
 Created a Lambda Layer for external dependency:
 <br>
@@ -77,11 +77,26 @@ Added the lambda layer to the function
 Imported the code for the data extractor Lambda function
 <img width="452" height="284" alt="image" src="https://github.com/user-attachments/assets/80e8cafc-572b-4bfa-b0fe-247e196151a8" />
 <br>
-<img width="452" height="213" alt="image" src="https://github.com/user-attachments/assets/26a7f517-c1d6-446d-a038-33792a036f8c" />
+<img width="452" height="213" alt="image" src="https://github.com/user-attachments/assets/26a7f517-c1d6-446d-a038-33792a036f8c" /><br>
 
 ### Connectivity
-Connected Lambda to MySQL database running on EC2
-Fixed networking issue by opening port 3306 in the security group
+Configured network settings for the function
+<img width="452" height="233" alt="image" src="https://github.com/user-attachments/assets/3b778874-2b06-4468-9d36-66e4a16ddd5d" /><br>
+
+### Testing
+Tested the data extractor Lambda function
+<br>
+<img width="452" height="233" alt="image" src="https://github.com/user-attachments/assets/e3a34861-dde6-47dc-b373-15b8c710f9e2" /><br>
+<img width="452" height="241" alt="image" src="https://github.com/user-attachments/assets/625f9c0a-aed8-4ae0-9db1-6156da032aee" /><br>
+there was an error<br>
+<img width="452" height="181" alt="image" src="https://github.com/user-attachments/assets/ae02a1ee-defc-45e2-859d-b718a1c7a950" />
+<br>
+Fixed networking issue by opening port 3306 in the security group.<br>
+<img width="452" height="234" alt="image" src="https://github.com/user-attachments/assets/c3f5539a-f76f-407c-b0f5-70a1440fb3aa" /><br>
+<img width="452" height="121" alt="image" src="https://github.com/user-attachments/assets/947c7e88-7005-44ad-8756-b8faec12c9f7" /><br>
+after the changes in the security group, the error is now gone<br>
+<img width="452" height="82" alt="image" src="https://github.com/user-attachments/assets/962f1c62-79a1-4c01-8227-378176abd818" />
+
 📧 Notifications
 Created SNS topic:
 salesAnalysisReportTopic
