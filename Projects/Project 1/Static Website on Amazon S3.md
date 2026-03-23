@@ -5,6 +5,13 @@ Amazon S3 is an excellent choice for hosting static websites because it provides
 ## Project Summary
 This project demonstrates how to configure and deploy a static website using Amazon S3. It highlights key cloud concepts such as storage configuration, access control, and web hosting without server management.
 
+The website is an online Tea Shop, with special tea offerings every month. The website structure is the following:
+- Main page : or landing page, showcasing the current month's tea offerings, newsletter subscription
+- About us : explainig the team behing the tea store 
+- Login : for users to log and check on their orders
+- Contact : allowing users to reach to the Quiet Kettle
+- Product details : more information on the teas and from here the customers can add them to their shopping cart.
+
 ## Tools & Technologies
 - Amazon S3  
 - HTML / CSS  
