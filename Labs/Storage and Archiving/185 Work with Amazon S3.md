@@ -17,33 +17,52 @@ The solution simulates a real-world scenario where a media partner uploads produ
 ## Key Implementations
 ### 1. Secure File Sharing with IAM
 - Configured an external IAM user (mediacouser) with least privilege access
+  <img width="452" height="218" alt="image" src="https://github.com/user-attachments/assets/c1cf84b2-a74d-42df-856c-188bced7b248" />
+
 - Restricted access to:
-  - Specific S3 bucket prefix (/images/)
+  - Specific S3 bucket prefix (/images/)<br>
+    <img width="452" height="218" alt="image" src="https://github.com/user-attachments/assets/4ea4d923-f012-4cf8-aca5-0c43e6080171" />
+
 - Allowed actions:
-  - Upload (PutObject)
+  - Upload (PutObject)<br>
+    <img width="452" height="220" alt="image" src="https://github.com/user-attachments/assets/4a4e9ae4-7cbe-4f9d-a6c9-ccf5a7ae954b" />
+
   - Read (GetObject)
-  - Delete (DeleteObject)
+  - Delete  (DeleteObject)
+    <br><img width="272" height="72" alt="image" src="https://github.com/user-attachments/assets/83514f9d-66a8-4438-9fd0-1f3b63f8b34f" />
+
+    
 - Prevented:
-  - Bucket-level permission changes
+  - Bucket-level permission changes<br>
+  <img width="452" height="183" alt="image" src="https://github.com/user-attachments/assets/b36e18cf-7a08-49a8-b210-7a570e0577cc" /><br>
+
   - Access outside the defined folder
 
 ### Implemented using IAM policies and groups in AWS Identity and Access Management
 
 ### 2. S3 Bucket Setup & Data Upload
-- Created and configured an Amazon S3 bucket via AWS CLI
+- Created and configured an Amazon S3 bucket via AWS CLI<br>
+<img width="452" height="35" alt="image" src="https://github.com/user-attachments/assets/834599b5-a3e2-4ff0-9cd9-dc132b7355f9" /><br>
 
 - Uploaded initial image dataset using:
-  - aws s3 sync ~/initial-images/ s3://<bucket-name>/images
-- Verified object storage and structure
+  - aws s3 sync ~/initial-images/ s3://<bucket-name>/images<br>
+  <img width="452" height="66" alt="image" src="https://github.com/user-attachments/assets/9acb2377-332e-407d-a98c-120fc2c47179" /><br>
 
-📷 Add S3 bucket contents screenshot here
+- Verified object storage and structure<br>
+<img width="452" height="79" alt="image" src="https://github.com/user-attachments/assets/36542675-66f6-4ace-8c26-f9b4ddb83250" /><br>
+
 
 ### 3. Event-Driven Notifications
-- Created an Amazon Simple Notification Service topic
+- Created an Amazon Simple Notification Service topic<br>
+  <img width="452" height="151" alt="image" src="https://github.com/user-attachments/assets/ae34b684-62ab-4577-9270-59030d927b32" /><br>
+
 - Configured S3 to trigger events on:
 - Object creation
 - Object deletion
-- Set up email subscription for real-time alerts
+- Set up email subscription for real-time alerts<br>
+<img width="452" height="28" alt="image" src="https://github.com/user-attachments/assets/f1dc019d-79f9-44e7-be07-007f35528115" /><br>
+<img width="452" height="224" alt="image" src="https://github.com/user-attachments/assets/fa251d66-7d4f-40c6-b19a-7760a275966c" />
+
 
 ### Implemented bucket notification configuration using AWS CLI and JSON
 
@@ -52,12 +71,17 @@ The solution simulates a real-world scenario where a media partner uploads produ
 - Avoided unnecessary alerts for other objects
 ### 5. End-to-End Testing
 - Verified real-world use cases:
-  - Upload → Email notification received
-  - Delete → Email notification received
-  - Unauthorized permission change → Access denied
-  - Read operation → No notification (as expected)
+  - Upload → Email notification received<br>
+  <img width="452" height="318" alt="image" src="https://github.com/user-attachments/assets/07d52d55-e90c-4fde-a23f-79dabb591859" /><br>
 
-📷 Add email notification screenshot here
+  - Delete → Email notification received<br>
+  <img width="452" height="310" alt="image" src="https://github.com/user-attachments/assets/4f3467cf-b0c7-459b-88f9-4bac6e1ebe24" /><br>
+
+  - Unauthorized permission change → Access denied<br>
+    <img width="452" height="33" alt="image" src="https://github.com/user-attachments/assets/f4510c2b-5b95-45a3-a704-3fd6da83eff3" /><br>
+
+  - Read operation → No notification (as expected)<br>
+<img width="452" height="68" alt="image" src="https://github.com/user-attachments/assets/35e8c489-9eb7-4d99-9a6e-b1eb173007fd" /><br>
 
 ## Technologies & Services Used
 - Amazon S3 – Object storage
@@ -82,15 +106,4 @@ The solution simulates a real-world scenario where a media partner uploads produ
 - How event notifications integrate S3 with SNS
 - Real-world application of least privilege principle
 - Differences between allowed vs denied actions in IAM policies
-📷 Screenshots
-✅ IAM policy & permissions
-✅ S3 bucket structure
-✅ Upload/delete operations
-✅ Email notifications (SNS)
-✅ Access denied error (security validation)
-## Possible Improvements
-- Replace email notifications with:
-- AWS Lambda for automated processing
-- Add monitoring with Amazon CloudWatch
-- Enable S3 versioning for recovery
-- Use pre-signed URLs instead of IAM users for external sharing
+
