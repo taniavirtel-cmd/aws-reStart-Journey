@@ -82,11 +82,3 @@ Deployed a custom HTML page:<br>
   <img width="452" height="336" alt="image" src="https://github.com/user-attachments/assets/7486d626-1ca5-494b-a194-a9fc0df15c33" /><br>
 
 - End-to-end deployment workflow from infrastructure to application
-
-## Screenshots
-✅ EC2 system log (httpd installation)
-✅ Running web application in browser
-🚀 Next Steps (Optional Improvements)
-Add a load balancer for scalability
-Use Amazon CloudFront for performance
-Automate deployment using Infrastructure as Code (e.g., CloudFormation)
