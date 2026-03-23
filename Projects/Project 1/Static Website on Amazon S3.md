@@ -77,4 +77,7 @@ This project demonstrates the ability to:
 ## Next Improvements
 - Integrate Amazon CloudFront for CDN performance
 - Add custom domain with Route 53
-- Implement HTTPS using SSL certificates
+- Implement HTTPS using SSL certificates - AWS Certificate Manager
+- Analytics and monitoring - Amazon CloudWatch
+- Authentification - Amazon Cognito
+- Database - AmazonDB
