@@ -23,9 +23,13 @@ By completing this lab, I demonstrated the ability to:
 ## Tasks Completed
 1. Connect to the Command Host
    <br>
+   <img width="1243" height="257" alt="image" src="https://github.com/user-attachments/assets/e711d062-05ed-4e3b-b950-0578ec4afb05" />
+   <br>
    <img width="452" height="126" alt="image" src="https://github.com/user-attachments/assets/dbd1c059-abca-4672-b1c9-d6f58595ca0e" />
    <br>
 3. Create a database and table
+   <br>
+   <img width="407" height="236" alt="image" src="https://github.com/user-attachments/assets/23b6764a-e786-42a7-bf25-e819ea2fff9a" />
    <br>
    <img width="452" height="122" alt="image" src="https://github.com/user-attachments/assets/3a020a48-0a38-499a-8c30-7e9f6cb928fc" />
    <br>
