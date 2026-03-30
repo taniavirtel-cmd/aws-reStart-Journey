@@ -92,11 +92,11 @@ Identified that PHP app did not support SSL by default<br>
 
 Issues encountered:
 
-SSL connection failure
-Reserved keyword (order)
-Schema mismatch:
-id vs order_number
-order_date vs order_date_time
+- SSL connection failure
+- Reserved keyword (order)
+- Schema mismatch:
+- id vs order_number
+- order_date vs order_date_time
 8. Create Custom PHP Files
 
 Created:
@@ -109,11 +109,11 @@ orders_rds.php → reads orders from RDS<br>
 <br>
 Key fixes:
 
-Added SSL connection via PDO
-Corrected SQL queries
-Used backticks for reserved table names (such as Order)
+- Added SSL connection via PDO
+- Corrected SQL queries
+- Used backticks for reserved table names (such as Order)
 
-🔐 Key Learning: SSL Enforcement
+## Key Learning: SSL Enforcement
 
 RDS required secure connections:
 
