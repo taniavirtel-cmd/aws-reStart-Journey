@@ -95,7 +95,9 @@ Issues encountered:
 - SSL connection failure
 - Reserved keyword (order)
 - Schema mismatch:
-- id vs order_number
+- id vs order_number<br>
+<img width="452" height="151" alt="image" src="https://github.com/user-attachments/assets/9302ac71-4432-4651-b3fc-8d0512b21706" />
+<br>
 - order_date vs order_date_time
 8. Create Custom PHP Files
 
