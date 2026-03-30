@@ -82,12 +82,12 @@ Encountered and resolved:
 
 Used --ssl-ca<br>
 <img width="590" height="441" alt="image" src="https://github.com/user-attachments/assets/3bb1096c-98da-4e9f-ac93-f2c1839e39d2" />
-
-Corrected command syntax
-Verified credentials
-6. Update Application Configuration
-Modified Parameter Store to point to RDS endpoint
-Identified that PHP app did not support SSL by default
+<br>
+Corrected command syntax<br>
+Verified credentials<br>
+6. Update Application Configuration<br>
+Modified Parameter Store to point to RDS endpoint<br>
+Identified that PHP app did not support SSL by default<br>
 7. Debug PHP Application
 
 Issues encountered:
@@ -101,16 +101,14 @@ order_date vs order_date_time
 
 Created:
 
-menu_rds.php → reads products from RDS
-orders_rds.php → reads orders from RDS
+menu_rds.php → reads products from RDS<br>
+orders_rds.php → reads orders from RDS<br>
 
 Key fixes:
 
 Added SSL connection via PDO
 Corrected SQL queries
-Used backticks for reserved table names
-
-📸 [Add browser output screenshots]
+Used backticks for reserved table names (such as Order)
 
 🔐 Key Learning: SSL Enforcement
 
@@ -121,7 +119,7 @@ require_secure_transport = ON
 Fix:
 
 --ssl-ca=global-bundle.pem
-🧠 Key Learnings
+## Key Learnings
 Difference between local DB vs managed cloud DB
 Importance of SSL in production environments
 Debugging real-world errors:
@@ -129,16 +127,14 @@ Connection issues
 Schema mismatches
 SQL syntax problems
 Understanding application–database integration
-🧩 Challenges Faced
+## Challenges Faced
 Issue	Resolution
 Cannot connect to RDS	Added SSL
 Unknown columns	Matched schema
 Reserved table name	Used backticks
 PHP not connecting	Created custom connection
 SCP issues	Fixed permissions & paths
-✅ Final Result
+## Final Result
 Application successfully reads data from Amazon RDS
 Secure SSL connection established
 Orders and menu displayed correctly
-
-📸 [Final working app screenshot]
