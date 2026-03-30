@@ -123,21 +123,21 @@ Fix:
 
 --ssl-ca=global-bundle.pem
 ## Key Learnings
-Difference between local DB vs managed cloud DB
-Importance of SSL in production environments
-Debugging real-world errors:
-Connection issues
-Schema mismatches
-SQL syntax problems
-Understanding application–database integration
+- Difference between local DB vs managed cloud DB
+- Importance of SSL in production environments
+- Debugging real-world errors:
+- Connection issues
+- Schema mismatches
+- SQL syntax problems
+- Understanding application–database integration
 ## Challenges Faced
-Issue	Resolution
-Cannot connect to RDS	Added SSL
-Unknown columns	Matched schema
-Reserved table name	Used backticks
-PHP not connecting	Created custom connection
-SCP issues	Fixed permissions & paths
+- Issue	Resolution
+- Cannot connect to RDS	Added SSL
+- Unknown columns	Matched schema
+- Reserved table name	Used backticks
+- PHP not connecting	Created custom connection
+- SCP issues	Fixed permissions & paths
 ## Final Result
-Application successfully reads data from Amazon RDS
-Secure SSL connection established
-Orders and menu displayed correctly
+- Application successfully reads data from Amazon RDS
+- Secure SSL connection established
+- Orders and menu displayed correctly
