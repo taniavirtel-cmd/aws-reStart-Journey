@@ -9,15 +9,15 @@ In this project, I migrated a PHP-based café web application from a local Maria
 - Amazon RDS (MariaDB) → Managed database
 - AWS Systems Manager Parameter Store → Stores configuration
 - SSL (global-bundle.pem) → Secure DB connection
-🛠️ Technologies Used
-AWS EC2
-AWS RDS (MariaDB)
-PHP
-MySQL / MariaDB CLI
-Linux (Amazon Linux)
-SCP (file transfer)
-SSL/TLS
-🔄 Migration Steps
+## Technologies Used
+- AWS EC2
+- AWS RDS (MariaDB)
+- PHP
+- MySQL / MariaDB CLI
+- Linux (Amazon Linux)
+- SCP (file transfer)
+- SSL/TLS
+## Migration Steps
 1. Verify Local Database
 Connected to local MariaDB on EC2
 Identified tables:
@@ -30,28 +30,44 @@ product_group
 
 2. Create Database Backup
 mysqldump -u root -p'Re:Start!9' cafe_db > cafedb-backup.sql
-
-📸 [Add screenshot of dump file]
+<br>
+<img width="452" height="145" alt="image" src="https://github.com/user-attachments/assets/b5a76c0b-deba-4cce-abc5-2e21057a26d5" />
+<br>
+<img width="452" height="13" alt="image" src="https://github.com/user-attachments/assets/58090283-e7f9-46ed-a9c9-d307c5a39032" />
+<br>
+<img width="452" height="194" alt="image" src="https://github.com/user-attachments/assets/9f48218c-6c15-4c30-8804-f1a90519e757" />
+<br>
 
 3. Create Amazon RDS Instance
 Launched MariaDB RDS instance
 Enabled require_secure_transport
-
-📸 [Add RDS configuration screenshot]
+<br>
+<img width="452" height="219" alt="image" src="https://github.com/user-attachments/assets/0da55d57-2e09-4241-84c6-c02955453f63" />
+<br>
+<img width="452" height="86" alt="image" src="https://github.com/user-attachments/assets/9abb6d69-3dde-4be0-842e-7feac21863d3" />
+<br>
 
 4. Import Data into RDS
 mysql -u root -p \
 --host=<RDS-ENDPOINT> \
 --ssl-ca=global-bundle.pem \
 cafe_db < cafedb-backup.sql
+<br>
+<img width="452" height="193" alt="image" src="https://github.com/user-attachments/assets/e1b3afe8-93ae-4c1b-ac87-ca2cd020c776" />
+<br>
+changed the parameter /cafe/dbUrl to the new database<br>
+<img width="452" height="193" alt="image" src="https://github.com/user-attachments/assets/9be15c33-0156-4a6c-b159-9c1799e79276" />
+<br>
 
-📸 [Add successful import screenshot]
-
-5. Troubleshooting Connection Issues
+6. Troubleshooting Connection Issues
 
 Encountered and resolved:
 
-❌ ssl-mode=VERIFY_CA not supported
+❌ ssl-mode=VERIFY_CA not supported - the original php tried normal connection, had to replace it for one using SSL
+<br>
+<img width="452" height="118" alt="image" src="https://github.com/user-attachments/assets/14d282e8-9b0d-4a84-95c3-0025f642c6fe" />
+
+<br>
 ❌ insecure transport error
 ❌ access denied
 ❌ unknown database
