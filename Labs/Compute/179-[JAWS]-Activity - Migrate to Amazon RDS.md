@@ -103,7 +103,10 @@ Created:
 
 menu_rds.php → reads products from RDS<br>
 orders_rds.php → reads orders from RDS<br>
-
+<img width="693" height="196" alt="image" src="https://github.com/user-attachments/assets/0e8deca6-b54e-464d-9aa7-57775426ee2e" />
+<br>
+<img width="692" height="498" alt="image" src="https://github.com/user-attachments/assets/f31b8a11-4038-4cf1-94c0-cd006a5233fe" />
+<br>
 Key fixes:
 
 Added SSL connection via PDO
