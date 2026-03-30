@@ -73,13 +73,16 @@ Encountered and resolved:
 
 <br>
 ❌ insecure transport error
-❌ access denied
-❌ unknown database
-❌ host formatting issues
+<br>
+❌ access denied<br>
+❌ unknown database<br>
+❌ host formatting issues<br>
 
 ✅ Solution:
 
-Used --ssl-ca
+Used --ssl-ca<br>
+<img width="590" height="441" alt="image" src="https://github.com/user-attachments/assets/3bb1096c-98da-4e9f-ac93-f2c1839e39d2" />
+
 Corrected command syntax
 Verified credentials
 6. Update Application Configuration
