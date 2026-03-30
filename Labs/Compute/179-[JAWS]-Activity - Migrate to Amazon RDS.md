@@ -25,9 +25,11 @@ order
 order_item
 product
 product_group
-
-📸 [Add screenshot: SHOW TABLES]
-
+<br>
+<img width="452" height="145" alt="image" src="https://github.com/user-attachments/assets/88980aa2-cddc-46b1-a68c-2d9f92cc5555" />
+<br>
+<img width="452" height="64" alt="image" src="https://github.com/user-attachments/assets/56ee8271-ef28-430d-86c3-8ec4a6607f75" />
+<br>
 2. Create Database Backup
 mysqldump -u root -p'Re:Start!9' cafe_db > cafedb-backup.sql
 <br>
