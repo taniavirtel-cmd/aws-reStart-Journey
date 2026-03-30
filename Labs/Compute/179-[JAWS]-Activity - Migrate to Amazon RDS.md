@@ -66,6 +66,7 @@ Encountered and resolved:
 ❌ ssl-mode=VERIFY_CA not supported - the original php tried normal connection, had to replace it for one using SSL
 <br>
 <img width="452" height="118" alt="image" src="https://github.com/user-attachments/assets/14d282e8-9b0d-4a84-95c3-0025f642c6fe" />
+<img width="452" height="151" alt="image" src="https://github.com/user-attachments/assets/f9e091ad-951e-44e1-8955-80d27bc16eda" />
 
 <br>
 ❌ insecure transport error
